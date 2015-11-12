@@ -1,0 +1,51 @@
+test = ‘This is just a simple string.’
+test = test.replace ( ‘simple’, ‘short’ )
+>>> testa
+‘This is just a short string.’
+>>> test.count ( ‘r’ )
+2>>> test.find ( ‘r’ )
+18
+>>> test [ 18 ]
+‘r’
+>>> test.split()
+['This', 'is', 'just', 'a', 'short', 'string.']
+>> test.split ( ‘a’ )
+['This is just ', ' short string.']
+>>> ‘ some ‘.join ( test.split ( ‘a’ ) )
+‘This is just  some  short string.’
+>>> test.upper()
+‘THIS IS JUST A SHORT STRING.’
+>>> test.lower()
+‘this is just a short string.’
+>>> test.lower().capitalize()
+‘This is just a short string.’
+>>> test.title()
+‘This Is Just A Short String.’
+>>> test.swapcase()
+‘tHIS IS JUST A SHORT STRING.’
+>>> ‘UPPER’.isupper()
+True
+>>> ‘UpPEr’.isupper()
+False
+>>> ‘aa44'.isalnum()
+True
+>>> ‘a$44'.isalnum()
+False
+Speaking of spaces, we can add spaces on either side of a string. Let’s add spaces to the right of a string:
+
+>>> ‘A string.’.ljust ( 15 )
+‘A string.      ‘
+
+To add spaces to the left of a string, the rjust method is used:
+
+>>> ‘A string.’.rjust ( 15 )
+‘      A string.’
+>>> ‘A string.’.center ( 15 )
+‘   A string.   ‘
+
+We can strip spaces on either side of a string:
+
+>>> ‘String.’.rjust ( 15 ).strip()
+‘String.’
+>>> ‘String.’.ljust ( 15 ).rstrip()
+‘String.’

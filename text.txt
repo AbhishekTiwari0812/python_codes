@@ -1,0 +1,7 @@
+My name is abhishek.
+I'm in computer Science Branch in IIT Ropar.
+I didn't have any idea about coding before getting in here.
+In the first semester I was exposed to a high level Langugage Matlab.
+I learnt many things from this.
+Then in the next semester I read C.
+Now I'm learning Python.
